@@ -1,0 +1,71 @@
+header {
+  background: no-repeat center/80% url("first-website-header.png");
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+ 
+}
+
+.header_class {
+  font-family: 'Abril Fatface';
+  font-size: 35px;
+  line-height: 0; 
+  margin-left: 525px;
+ 
+  padding: 0;
+ 
+  border: 0;
+   height: 500px;
+  width: 800px;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+main {
+  width: 800px;
+  margin-left: auto;
+    margin-right: auto;
+
+}
+h2 {
+   font-family: Josefin Sans;
+  text-transform: uppercase;
+  }
+h4 {
+   font-family: Josefin Sans;
+}
+h5 {
+   font-family: Merriweather;
+   font-style: italic;
+}
+
+p {
+  font-family: Josefin Sans;
+}
+
+ul {
+   font-family: Josefin Sans;
+}
+
+blockquote::before {
+  content: "\201C";
+ background: black;
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size: 45px;
+ margin: 0;
+
+}
+
+blockquote {
+  background: black;
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
